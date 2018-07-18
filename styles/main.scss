@@ -1,0 +1,39 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	background-color: lighten(black, 10);
+	display: flex;
+	flex-direction: column;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode",
+		Geneva, Verdana, sans-serif;
+}
+
+.flex-spacer {
+	flex-grow: 1;
+}
+
+#characters {
+	display: flex;
+	flex-flow: row nowrap;
+	flex-shrink: 0;
+	padding: 0.2em 0.5em 1.4em;
+	overflow-x: hidden;
+}
+
+character-panel {
+	display: block;
+	margin-right: 0.5em;
+	min-width: 15em;
+	background-color: lighten(black, 13);
+	user-select: none;
+}
+
+#deck-header {
+	color: gray;
+	font-size: 1.4em;
+	padding: 0.4em 0.4em 0;
+}

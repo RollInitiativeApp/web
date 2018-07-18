@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>User Setup</title>
+
+		<style>
+			body,
+			html {
+				margin: 0;
+				padding: 0;
+				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+				font-size: 14pt;
+			}
+
+			main {
+				padding-top: 5em;
+			}
+
+			nav {
+				background-color: #3d3333;
+				color: whitesmoke;
+				display: flex;
+			}
+
+			.flex-spacer {
+				flex-grow: 1;
+			}
+		</style>
+	</head>
+
+	<body>
+		<nav>
+			<span>Roll Initiative!</span>
+			<span class="flex-spacer"></span>
+			<a href="/auth/logout">Log Out</a>
+		</nav>
+
+		<main class="container">
+
+			<form>
+				<div class="form-group">
+					<label>What do you want your username to be?</label>
+					<input class="form-control" type="text" name="Username" required />
+				</div>
+
+				<div class="form-row">
+					<div class="col">
+						<div class="form-group">
+							<label>Your First Name?</label>
+							<input class="form-control" type="text" placeholder="First Name" required />
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="form-group">
+							<label>Your Last Name?</label>
+							<input class="form-control" type="text" placeholder="Last Name" required />
+						</div>
+					</div>
+				</div>
+
+				<input type="submit" />
+			</form>
+		</main>
+	</body>
+
+</html>

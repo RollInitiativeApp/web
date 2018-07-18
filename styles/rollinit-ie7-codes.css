@@ -1,0 +1,14 @@
+
+.icon-poison { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe900;&nbsp;'); }
+.icon-blinded { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe933;&nbsp;'); }
+.icon-player { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe946;&nbsp;'); }
+.icon-marked { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe97e;&nbsp;'); }
+.icon-restrained { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9f1;&nbsp;'); }
+.icon-heart { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9fa;&nbsp;'); }
+.icon-wait { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea09;&nbsp;'); }
+.icon-boss { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea43;&nbsp;'); }
+.icon-print { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea58;&nbsp;'); }
+.icon-stunned { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea6a;&nbsp;'); }
+.icon-enemy { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xeaa1;&nbsp;'); }
+.icon-fire { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xeaa3;&nbsp;'); }
+.icon-asleep { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf236;&nbsp;'); }

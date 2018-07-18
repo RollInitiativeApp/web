@@ -1,0 +1,14 @@
+
+.icon-poison:before { content: '\e900'; } /* '' */
+.icon-blinded:before { content: '\e933'; } /* '' */
+.icon-player:before { content: '\e946'; } /* '' */
+.icon-marked:before { content: '\e97e'; } /* '' */
+.icon-restrained:before { content: '\e9f1'; } /* '' */
+.icon-heart:before { content: '\e9fa'; } /* '' */
+.icon-wait:before { content: '\ea09'; } /* '' */
+.icon-boss:before { content: '\ea43'; } /* '' */
+.icon-print:before { content: '\ea58'; } /* '' */
+.icon-stunned:before { content: '\ea6a'; } /* '' */
+.icon-enemy:before { content: '\eaa1'; } /* '' */
+.icon-fire:before { content: '\eaa3'; } /* '' */
+.icon-asleep:before { content: '\f236'; } /* '' */

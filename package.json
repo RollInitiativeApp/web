@@ -1,0 +1,26 @@
+{
+	"name": "client",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"dependencies": {
+		"@roll4init/data": "^1.0.0",
+		"@types/page": "^1.5.32",
+		"@webcomponents/webcomponentsjs": "^2.0.2",
+		"faker": "^4.1.0",
+		"lit-html": "^0.10.2",
+		"page": "^1.8.6"
+	},
+	"devDependencies": {
+		"@types/faker": "^4.1.2",
+		"ts-loader": "^4.4.1",
+		"typescript": "^2.9.2",
+		"webpack": "^4.12.0"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
